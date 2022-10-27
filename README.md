@@ -59,22 +59,19 @@ There are four types of influenza viruses: A, B, C and D. Human influenza A and 
  ### 2.Data Understanding
  
 `respondent_id` - Unique and random identifier
-​
 `h1n1_concern` - level of concern about the H1N1 flu.(0 = Not at all concerned; 1 = Not very concerned; 2 = Somewhat concerned; 3 = Very concerned.)
-​
 `h1n1_knowledge` - Level of knowledge about H1N1 flu.(0 = No knowledge; 1 = A little knowledge; 2 = A lot of knowledge.)
-​
+
 `behvioural_antiviral_meds` - Has taken antiviral medications. (binary)
-​
+
 `bevioral_avoidance` - as avoided close contact with others with flu-like symptoms. (binary)
-​
+
 `behavioral_face_mask` - Has bought a face mask. (binary)
-​
+
 `behavioral_wash_hands` - Has frequently washed hands or used hand sanitizer. (binary)
 ​
 `behavioral_large_gatherings` - Has reduced time at large gatherings. (binary)
-​
-​
+
 `behavioral_touch_face` - Has avoided touching eyes, nose, or mouth. (binary)
 ​
 `doctor_recc_h1n1` - H1N1 flu vaccine was recommended by doctor. (binary)
