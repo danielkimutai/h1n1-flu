@@ -2,7 +2,7 @@
 ​
 # Phase_3_Project
 ![image](https://user-images.githubusercontent.com/110459255/198085450-30798243-59b7-406a-91a3-0bd8b39fce56.png)
-​
+
 ### Table of contents 
 - [Business Understanding](#business-understanding)
 - [Overview](#overview)
@@ -21,17 +21,17 @@
 ####  Overview
 Influenza, commonly known as "the flu", is an infectious disease caused by influenza viruses. Symptoms range from mild to severe and often include fever, runny nose, sore throat, muscle pain, headache, coughing, and fatigue. These symptoms begin from one to four days after exposure to the virus (typically two days) and last for about 2–8 days. Diarrhea and vomiting can occur, particularly in children. Influenza may progress to pneumonia, which can be caused by the virus or by a subsequent bacterial infection. Other complications of infection include acute respiratory distress syndrome, meningitis, encephalitis, and worsening of pre-existing health problems such as asthma and cardiovascular disease.
 There are four types of influenza viruses: A, B, C and D. Human influenza A and B viruses cause seasonal epidemics of disease (known as flu season) almost every winter in the United States. Influenza A viruses are the only influenza viruses known to cause flu pandemics, i.e., global epidemics of flu disease.
-​
+
 ---
 ### Target Variables
 `h1n1_vaccine` - Whether respondent received H1N1 flu vaccine.
-​
+
 `seasonal_vaccine` - Whether respondent received seasonal flu vaccine.
-​
+
 ---
  ###  Business objectives
  Listed below are ways in which the public can help curb the spread of the flu:
-​
+
 1.Take time to get a flu vaccine.
  * CDC recommends a yearly flu vaccine as the first and most important step in protecting against flu viruses.Flu vaccines help to reduce the burden of flu illnesses, hospitalizations and deaths on the health care system each year.
  
@@ -69,45 +69,45 @@ There are four types of influenza viruses: A, B, C and D. Human influenza A and 
 `behavioral_face_mask` - Has bought a face mask. (binary)
 
 `behavioral_wash_hands` - Has frequently washed hands or used hand sanitizer. (binary)
-​
+
 `behavioral_large_gatherings` - Has reduced time at large gatherings. (binary)
 
 `behavioral_touch_face` - Has avoided touching eyes, nose, or mouth. (binary)
-​
+
 `doctor_recc_h1n1` - H1N1 flu vaccine was recommended by doctor. (binary)
-​
+
 `doctor_recc_seasonal` - Seasonal flu vaccine was recommended by doctor. (binary)
-​
+
 `chronic_med_condition` - Has any of the following chronic medical conditions: asthma or an other lung condition, diabetes, a heart condition, a kidney condition, sickle cell anemia or other anemia, a neurological or neuromuscular condition, a liver condition, or a weakened immune system caused by a chronic illness or by medicines taken for a chronic illness. (binary)
-​
+
 `child_under_6_months` - Has regular close contact with a child under the age of six months. (binary)
-​
+
 `health_worker` - Is a healthcare worker. (binary)
-​
+
 `health_insurance` - Has health insurance. (binary)
-​
+
 `opinion_h1n1_vacc_effective` - Respondent's opinion about H1N1 vaccine effectiveness.(1 = Not at all effective; 2 = Not very effective; 3 = Don't know; 4 = Somewhat effective; 5 = Very effective.)
-​
+
 `opinion_h1n1_risk` - Respondent's opinion about risk of getting sick with H1N1 flu without vaccine.(1 = Very Low; 2 = Somewhat low; 3 = Don't know; 4 = Somewhat high; 5 = Very high.)
-​
+
 `opinion_h1n1_sick_from_vacc` - Respondent's worry of getting sick from taking H1N1 vaccine.(1 = Not at all worried; 2 = Not very worried; 3 = Don't know; 4 = Somewhat worried; 5 = Very worried.)
-​
+
 `opinion_seas_vacc_effective` - Respondent's opinion about seasonal flu vaccine effectiveness.(1 = Not at all effective; 2 = Not very effective; 3 = Don't know; 4 = Somewhat effective; 5 = Very effective.)
-​
+
 `opinion_seas_risk` - Respondent's opinion about risk of getting sick with seasonal flu without vaccine.(1 = Very Low; 2 = Somewhat low; 3 = Don't know; 4 = Somewhat high; 5 = Very high.)
-​
+
 `opinion_seas_sick_from_vacc` - Respondent's worry of getting sick from taking seasonal flu vaccine.(1 = Not at all worried; 2 = Not very worried; 3 = Don't know; 4 = Somewhat worried; 5 = Very worried.)
-​
+
 `age_group` - Age group of respondent.
-​
+
 ---
-​
+
 ### Data Preparation
 Within our data preparation phase, we performed the following tasks:
  - Clean Data
     - Removed Duplicates
     - Filled Missing Values
-​
+
 ---
 ### Eploratory Data Analysis
 Here is a an overview on some of the features and how they affect people's opinion on getting the vaccine
@@ -150,7 +150,7 @@ identifying factors that interfere with the administration of the vaccine is vit
 that produce a priming effect and enhance response is important in understanding how to
 improve efficiency of influenza vaccine. Prospective safety monitoring followed by rigorous
 signal refinement is critical to inform decision making by regulatory and public health agencies
-​
+
 ---
 ### Conclusion
 Our study demonstrates that college graduates, females, those not in the labor force and the 
@@ -158,7 +158,7 @@ elderly have the highest turn out in obtaining both the h1n1 vaccine and the sea
 Evidently, the probability of an individual to get vaccinated against flu is often dictated by; 
 demographic factors, what people perceive and day to day behaviors towards preventing 
 infection.
-​
+
 ---
 ​
  
