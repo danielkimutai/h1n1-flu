@@ -15,7 +15,7 @@
 - [Conclusion](#conclusion)
 - [Recommendation](#recommendation)
 - [Limitations](#limitations)
-​
+
 ---
 ### Business Underastanding
 ####  Overview
@@ -114,13 +114,13 @@ Here is a an overview on some of the features and how they affect people's opini
 Represenation of the age group dataset
 ![image](https://user-images.githubusercontent.com/110459255/198104650-de7efbbf-9e9b-43e9-b9b7-64c70a6bc198.png)
 The elderly mainly obtain vaccination compared to the rest of the age groups. This could be attributed to the low immune of the elderly people hence the high risk of flu transmission. The rest of the age groups comprising of young adults have a relatively stronger immune making them less prone to contracting the flu illness.
-​
+
 To check for the relationship of various factors with H1N1 and Seasonal vaccine; education, gender, employment status and age group were plotted against the two vaccines.
 ![image](https://user-images.githubusercontent.com/110459255/198158069-74518df4-dd16-4359-9049-f238b59ca7f4.png)
-​
-​
+
+
 ---
-​
+
 ### Modeling
 We build a couple of models using different featuers in our dataset to try  predicting whether an individual will go for H1N1 vaccine or Seasonal Flu Vaccines.The models have different levels of  accuracy.   
             - Random forest
@@ -135,7 +135,7 @@ The model is trained with the training features (X_train) and training labels (y
 new   data   it   hasn't   seen   before   (X_test)   to   evaluate   how   well   it   classifies   the   new   data.
 The training or test split percentages do not however affect our workflow. 70% of the data was set for
 training purposes while 30% was set for testing purposes.
-​
+
 MinMaxScaler
 This is a technique used to transform features by scaling each feature to a given range. It is an 
 estimator that scales and translates each feature individually such that it is in the given range on 
@@ -160,15 +160,15 @@ demographic factors, what people perceive and day to day behaviors towards preve
 infection.
 
 ---
-​
+
  
 ### Limitations
-​
+
 Vaccination data was obtained from electronic records hence subject to errors and misclassification
-​
+
 ---
-​
-​
-​
+
+
+
  
  
